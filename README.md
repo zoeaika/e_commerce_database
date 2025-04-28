@@ -7,7 +7,7 @@ This README provides an overview of the database tables for the e-commerce proje
 1. **Products**: 
 created the table with (id, product_name, price)
 
-2. **product_Category**: Organizes products (`category_id`, `name`, etc.).
+2. **product_Category**: Organizes products (`category_id`, `name`, etc.).https://github.com/zoeaika/e_commerce_database.git
 
 3. **brand**: created brand table
 
