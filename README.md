@@ -7,21 +7,19 @@ This README provides an overview of the database tables for the e-commerce proje
 1. **Products**: 
 created the table with (id, product_name, price)
 
-2. **product_Category**: Organizes products (`category_id`, `name`, etc.).https://github.com/zoeaika/e_commerce_database.git
+2. **product_Category**: Organizes products (`category_id`, `name`, etc.).
 
 3. **brand**: created brand table
 
 4. **product_image**: containes the URL for the product images.
 
-5. **
+5. **Product_Categories** (Join Table)
+  Associates products with multiple categories (many-to-many relationship).
+  Columns: product_id, category_id
 
-6. **Product_Categories**: Links products to categories (`product_id`, `category_id`).
-
-7. **Payments**: Stores payment details (`payment_id`, `order_id`, `amount`, etc.).
+6. **Payments**: Stores payment details (`payment_id`, `order_id`, `amount`, etc.).
 
 ## Notes
 - Optimize foreign key indexing for performance.
 - Use appropriate data types for columns.
 
-## License
-Licensed under the MIT License.
